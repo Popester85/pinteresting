@@ -1,10 +1,20 @@
-
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
 
 $body-bg: 							white;
+$font-family-sans-serif:			'Rokkitt';
 $navbar-inverse-bg:					#294e83;
+$navbar-height:						50px;
 $navbar-inverse-link-color:			white;
 $navbar-inverse-link-hover-color:	#bb9ca6;
 $brand-primary: 					#a03524;
 $jumbotron-bg:						#bb9ca6;	
 
 @import 'bootstrap'; 
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
